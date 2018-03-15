@@ -101,7 +101,7 @@ class LoginDAO extends Conexao
     public function statusLogin(){
     if (empty($_SESSION['id']));
     header("Location: login.php");
-    
+
 
     }
 
